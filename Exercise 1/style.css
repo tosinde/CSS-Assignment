@@ -1,0 +1,35 @@
+body {
+    background-color: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    background-color: white;
+    display: flex;
+    width: 430px;
+    height: 270px;
+    border-radius: 8px;
+    margin: 100px;
+}
+
+.otter-text {
+    position: relative;
+    margin: 75px 10px 10px 10px;
+    padding: 20px;
+    font-size: 16px;
+    justify-content: left;
+    line-height: 1.8;
+}
+
+.header {
+    position: absolute;
+    background-color: #ff007f;
+    height: 50px;
+    width: 320px;
+    padding: 20px;
+    top: 50px;
+    left: 135px;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 5px;
+}

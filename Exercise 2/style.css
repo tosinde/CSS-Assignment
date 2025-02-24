@@ -1,0 +1,175 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+}
+
+header {
+    height: 382px;
+    border-bottom: 8px solid gray;
+}
+
+.heading {
+    position: relative;
+    display: flex;
+    margin: 0px 305px;
+    width: 350px;
+    height: 280px;
+    top: 100px;
+}
+
+main {
+    height: 450px;
+    background-color: #999999;
+}
+
+.flex-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 680px;
+    height: 220px;
+    top: -10px;
+    margin: 125px 295px;
+    padding: 10px;
+    border-bottom: 8px solid gray;
+    box-shadow: 5px;
+}
+
+.text-style {
+    color: rgba(0, 128, 32, 0.671);
+    font-weight: bold;
+}
+
+.huckleberry-text {
+    position: relative;
+    margin: 95px 10px 0px 10px;
+    padding-bottom: 10px;
+}
+
+.head {
+    position: absolute;
+    background-color: gold;
+    top: -10px;
+    left: -10px;
+    padding: 15px 30px;
+    border-bottom: 8px solid rgb(216, 186, 14);
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        width: 1280px;
+    }
+
+    main {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        display: grid;
+        grid-gap: 0;
+        width: 768px;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        width: 768px;
+        height: 382px;
+        gap: 0px;
+        border-bottom: 8px;
+    }
+
+    .heading {
+        margin: 0px 100px;
+        width: 200px;
+        gap: 0
+    }
+
+    main {
+        width: 776px;
+        height: 456px;
+    }
+
+    .flex-container {
+        width: 776px;
+        height: 220px;
+        border-bottom: 8px solid gray;
+        margin: 0;
+        padding: 0;
+        top: 124px;
+    }
+
+    .huckleberry-text {
+        margin: 95px 20px 0px 20px;
+        padding-bottom: 10px;
+    }
+
+    .heading {
+        margin: 20px;
+        width: 350px;
+        height: 280px;
+        top: 100px;
+    }
+}
+
+@media (max-width: 390px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 390px;
+        height: 844px;
+        line-height: 1.8;
+    }
+
+    header {
+        width: 390px;
+        height: 382px;
+        border-bottom: 8px solid gray;
+    }
+
+    .heading-p {
+        padding-bottom: 15px;
+    }
+
+    main {
+        width: 398px;
+        height: 767px;
+        top: 382px;
+        left: -8px;
+        gap: 0px;
+    }
+
+    .heading {
+        position: relative;
+        display: flex;
+        width: 300px;
+        height: 200px;
+    }
+
+    .flex-container {
+        width: 398px;
+        height: 460px;
+        top: 155px;
+        margin: 0;
+        padding: 0px;
+        border-bottom: 8px solid gray;
+        box-shadow: 5px;
+    }
+ 
+    .huckleberry-text {
+        margin: 170px 10px 0px 20px;
+        padding-bottom: 10px;
+        height: 350px;
+    }
+
+    .inner-p {
+        padding-bottom: 15px;
+    }
+}

@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333333;
+}
+
+.fullpage {
+    position: relative;
+    top: 50px;
+}
+
+h1 {
+    position: relative;
+    left: 503px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+span {
+    color: #FFF2E5;
+}
+
+.reg-no, .links {
+    margin-bottom: 75px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.exercise {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
